@@ -18,6 +18,7 @@ public class QuoteService {
 
     public Quote getRandomQuote() {
         List<Quote> quotes = quoteRepository.findAll();
+        
         Random random = new Random();
         return quotes.get(random.nextInt(quotes.size()));
     }

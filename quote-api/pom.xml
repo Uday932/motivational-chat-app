@@ -8,7 +8,7 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.example.quote_api</groupId>
 	<artifactId>quote-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>quote-api</name>
